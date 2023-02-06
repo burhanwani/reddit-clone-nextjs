@@ -1,6 +1,7 @@
 import React from "react";
 import SearchInput from "./SearchInput";
 import { Box, Flex, Image } from "@chakra-ui/react";
+import RightContent from "./RightContent/RightContent";
 
 type NavbarProps = {};
 
@@ -24,6 +25,8 @@ const Navbar: React.FC = () => {
           height="46px"
         />
       </Flex>
+      <SearchInput />
+      <RightContent />
     </Flex>
   );
 };
